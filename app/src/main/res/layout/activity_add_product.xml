@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddProductActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/productRegistrationHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product Registration"
+        android:textSize="30sp"
+        android:background="#DC840A"
+        android:textColor="@color/white"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/productRegistrationName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Product Name"
+        android:inputType="text"
+        android:textSize="24sp"
+        android:autofillHints="Product Name"
+        android:layout_marginTop="50dp"
+        android:paddingStart="10dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="28dp"/>
+
+    <EditText
+        android:id="@+id/productRegistrationShopName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Shop Name"
+        android:inputType="text"
+        android:textSize="24sp"
+        android:autofillHints="Product Name"
+        android:layout_marginTop="15dp"
+        android:paddingStart="10dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="28dp"/>
+
+    <EditText
+        android:id="@+id/productRegistrationShopRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Shop Rating"
+        android:inputType="numberDecimal"
+        android:textSize="24sp"
+        android:autofillHints="Product Name"
+        android:layout_marginTop="15dp"
+        android:paddingStart="10dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="28dp"/>
+
+    <EditText
+        android:id="@+id/productRegistrationShopAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Shop Address"
+        android:inputType="text"
+        android:textSize="24sp"
+        android:autofillHints="Product Name"
+        android:layout_marginTop="15dp"
+        android:paddingStart="10dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="28dp"/>
+    <EditText
+        android:id="@+id/productRegistrationProductPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Product Price"
+        android:inputType="text"
+        android:textSize="24sp"
+        android:autofillHints="Product Name"
+        android:layout_marginTop="15dp"
+        android:paddingStart="10dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="28dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="20dp">
+
+        <Button
+            android:id="@+id/productRegistrationDataUploadButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="UPLOAD"
+            android:textSize="25sp"
+            android:backgroundTint="#EB9014"/>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/productRegistrationGoToHomeScreenButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Home Screen"
+        android:textAlignment="center"
+        android:textColor="#8E5202"
+        android:textSize="17sp"
+        android:layout_marginTop="50dp"
+        android:textStyle="italic"/>
+
+
+
+
+</LinearLayout>
