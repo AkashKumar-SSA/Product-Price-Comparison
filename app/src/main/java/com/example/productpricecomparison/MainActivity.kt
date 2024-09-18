@@ -36,6 +36,7 @@ class MainActivity : AppCompatActivity() {
         binding.productRecyclerview.layoutManager = LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false)
         binding.productRecyclerview.setHasFixedSize(true)
         getProductDataFromFirebase()
+//        binding.productRecyclerview.adapter = MyProductDataAdapter(productDataList)
 
 
     }
